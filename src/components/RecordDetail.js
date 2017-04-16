@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import StarRatingComponent from 'react-star-rating-component';
 import moment from 'moment';
 require ('moment-duration-format');
@@ -37,5 +37,14 @@ class RecordDetail extends Component {
     );
   }
 }
+
+RecordDetail.propTypes = {
+  record: PropTypes.object.isRequired,
+  created: PropTypes.string,
+  duration: PropTypes.number,
+  final_script: PropTypes.string,
+  rating: PropTypes.number,
+  url: PropTypes.string
+};
 
 export default RecordDetail;
