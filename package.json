@@ -97,7 +97,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/alexandr-g/i2x-challenge-alexander"
   },
   "jest": {
     "moduleNameMapper": {
