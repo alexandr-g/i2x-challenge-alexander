@@ -27,8 +27,12 @@ class RecordDetail extends Component {
           </p>
         </div>
         <div className="ph1"><b>Duration:</b> {moment.duration(duration, 'seconds').format('h [hrs], m [minutes]')}</div>
-        <div className="ph1">URL: {url}</div>
-        <div className="ph1"><b>Created:</b> {moment(created).format('D.MM.YYYY')}</div>
+        <div className="ph1 pv3">
+          <audio controls="controls" >
+            <source src={url} />
+          </audio>
+        </div>
+        <div className="ph1 pv1"><b>Created:</b> {moment(created).format('D.MM.YYYY')}</div>
       </article>
     );
   }
