@@ -28,7 +28,7 @@ class RecordDetail extends Component {
         </div>
         <div className="ph1"><b>Duration:</b> {moment.duration(duration, 'seconds').format('h [hrs], m [minutes]')}</div>
         <div className="ph1">URL: {url}</div>
-        <div className="ph1">CREATED: {created}</div>
+        <div className="ph1"><b>Created:</b> {moment(created).format('D.MM.YYYY')}</div>
       </article>
     );
   }
