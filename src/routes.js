@@ -1,10 +1,10 @@
 import React from 'react';
 import { Route, IndexRoute } from 'react-router';
 import App from './components/App';
-import Home from './components/Home';
+import Home from './components/home/Home';
 import NotFound from './components/NotFound';
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
+import Login from './components/login/Login';
+import Dashboard from './components/dashboard/Dashboard';
 
 export default (
   <Route path="/" component={App}>

@@ -1,7 +1,7 @@
 import React from 'react';
-import TextFieldGroup from './TextFieldGroup';
 import { connect } from 'react-redux';
-import { login } from '../actions/authActions';
+import TextFieldGroup from './TextFieldGroup';
+import { login } from '../../actions/authActions';
 
 class LoginForm extends React.Component {
   constructor(props) {
