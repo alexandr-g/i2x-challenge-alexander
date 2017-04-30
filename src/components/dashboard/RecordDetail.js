@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import StarRatingComponent from 'react-star-rating-component';
 import moment from 'moment';
 require ('moment-duration-format');
