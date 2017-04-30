@@ -6,6 +6,10 @@ It is a React app with:
 2. Dashboard page with a list of playable audio (/dashboard)
 3. NotFound page
 
+<img width="1275" alt="screen shot 2017-04-30 at 10 15 01 am" src="https://cloud.githubusercontent.com/assets/9251327/25562743/78a3dc30-2d8e-11e7-9e30-c942a3a50a91.png">
+
+<img width="1271" alt="screen shot 2017-04-24 at 5 39 25 pm" src="https://cloud.githubusercontent.com/assets/9251327/25562679/2c4fdc9a-2d8d-11e7-94be-89230c4b5754.png">
+
 ## Usage
 
 #### To run project locally
