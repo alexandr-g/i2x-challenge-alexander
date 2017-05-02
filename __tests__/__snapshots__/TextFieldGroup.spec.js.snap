@@ -1,0 +1,16 @@
+exports[`TextFieldGroup: is rendered 1`] = `
+<div
+  className="form-group">
+  <label
+    className="db fw6 lh-copy f6">
+    E-mail
+  </label>
+  <input
+    className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+    name="email"
+    onBlur={undefined}
+    onChange={undefined}
+    type="text"
+    value="test@test.com" />
+</div>
+`;
